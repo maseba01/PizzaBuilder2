@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div style="margin:20px;">
+    <div id="main" style="position:relative;overflow:hidden;width:550px;height:550px;">
+        <img src="~/Content/dough.png" style="position:absolute;top:0px;left:0px;z-index:0;" />
+        <img src="~/Content/sauce.png" style="position:absolute;top:0px;left:0px;z-index:0;" />
+        <img src="~/Content/cheese.png" style="position:absolute;top:0px;left:0px;z-index:0;" />
+
+        <img id="pepperoni" src="~/Content/pepperoni.png" style="position:absolute;top:0px;left:0px;z-index:1;visibility:hidden;" />
+        <img id="sausage" src="~/Content/sausage.png" style="position:absolute;top:0px;left:0px;z-index:1;visibility:hidden;" />
+        <img id="ham" src="~/Content/ham.png" style="position:absolute;top:0px;left:0px;z-index:1;visibility:hidden;" />
+        <img id="bacon" src="~/Content/bacon.png" style="position:absolute;top:0px;left:0px;z-index:1;visibility:hidden;" />
+        <img id="chicken" src="~/Content/chicken.png" style="position:absolute;top:0px;left:0px;z-index:1;visibility:hidden;" />
+
+        <img id="greenpeppers" src="~/Content/green-peppers.png" style="position:absolute;top:0px;left:0px;z-index:2;visibility:hidden;" />
+        <img id="bannanapeppers" src="~/Content/bannana-peppers.png" style="position:absolute;top:0px;left:0px;z-index:2;visibility:hidden;" />
+        <img id="spinach" src="~/Content/spinnach.png" style="position:absolute;top:0px;left:0px;z-index:2;visibility:hidden;" />
+        <img id="blackolives" src="~/Content/black-olives.png" style="position:absolute;top:0px;left:0px;z-index:2;visibility:hidden;" />
+        <img id="pineapple" src="~/Content/pineapple.png" style="position:absolute;top:0px;left:0px;z-index:2;visibility:hidden;" />
+
+    </div>
+</div>
+<button onclick="setImageVisible('pepperoni', true);">Add Pepperoni</button>
+<button onclick="setImageVisible('pepperoni', false);">Remove Pepperoni</button>
+<br />
+<button onclick="setImageVisible('sausage', true);">Add Sausage</button>
+<button onclick="setImageVisible('sausage', false);">Remove Sausage</button>
+<br />
+<button onclick="setImageVisible('ham', true);">Add Ham</button>
+<button onclick="setImageVisible('ham', false);">Remove Ham</button>
+<br />
+<button onclick="setImageVisible('bacon', true);">Add Bacon</button>
+<button onclick="setImageVisible('bacon', false);">Remove Bacon</button>
+<br />
+<button onclick="setImageVisible('chicken', true);">Add Chicken</button>
+<button onclick="setImageVisible('chicken', false);">Remove Chicken</button>
+<br />
+<button onclick="setImageVisible('greenpeppers', true);">Add Green Peppers</button>
+<button onclick="setImageVisible('greenpeppers', false);">Remove Green Peppers</button>
+<br />
+<button onclick="setImageVisible('bannanapeppers', true);">Add Bannana Peppers</button>
+<button onclick="setImageVisible('bannanapeppers', false);">Remove Bannana Peppers</button>
+<br />
+<button onclick="setImageVisible('spinach', true);">Add Spinach</button>
+<button onclick="setImageVisible('spinach', false);">Remove Spinach </button>
+<br />
+<button onclick="setImageVisible('blackolives', true);">Add Black Olives</button>
+<button onclick="setImageVisible('blackolives', false);">Remove Black Olives </button>
+<br />
+<button onclick="setImageVisible('pineapple', true);">Add Pineapples</button>
+<button onclick="setImageVisible('pineapple', false);">Remove Pineapples</button>
+
+
+
